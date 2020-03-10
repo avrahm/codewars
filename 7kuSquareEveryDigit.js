@@ -25,3 +25,5 @@ return Number(arr.join(''));
 }
 
 
+//refactored
+return Number(num.toString().split('').map(val=>val*=val).join(''));
